@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onglets js</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="tabs">
+      <div
+        role="tablist"
+        aria-label="tabs component"
+        class="tabs-btn-container"
+      >
+        <button
+          role="tab"
+          aria-controls="panel-1"
+          id="tab-1"
+          type="button"
+          aria-selected="true"
+          tabindex="0"
+          class="tab active-tab"
+        >
+          Rocket 🚀
+        </button>
+        <button
+          role="tab"
+          aria-controls="panel-2"
+          id="tab-2"
+          type="button"
+          aria-selected="false"
+          tabindex="-1"
+          class="tab"
+        >
+          Science 🧪
+        </button>
+        <button
+          role="tab"
+          aria-controls="panel-3"
+          id="tab-3"
+          type="button"
+          aria-selected="false"
+          tabindex="-1"
+          class="tab"
+        >
+          Food 🍔
+        </button>
+      </div>
+      <div
+        role="tabpanel"
+        id="panel-1"
+        tabindex="0"
+        aria-labelledby="tab-1"
+        class="tab-content active-tab-content"
+      >
+        <h3>Rocket 🚀</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+          perspiciatis dolor sint voluptas harum explicabo. Rem at error nam
+          omnis! Dignissimos quo, voluptatibus perferendis placeat ex quas.
+          Rerum tempora autem, voluptatum et odio reprehenderit totam quibusdam
+          iure exercitationem praesentium, laudantium expedita cum, doloremque
+          error. Quam expedita obcaecati voluptatem suscipit numquam!
+        </p>
+      </div>
+      <div
+        role="tabpanel"
+        id="panel-2"
+        tabindex="0"
+        aria-labelledby="tab-2"
+        class="tab-content"
+      >
+        <h3>Science 🧪</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+          perspiciatis dolor sint voluptas harum explicabo. Rem at error nam
+          omnis! Dignissimos quo, voluptatibus perferendis placeat ex quas.
+          Rerum tempora autem, voluptatum et odio reprehenderit totam quibusdam
+          iure exercitationem praesentium, laudantium expedita cum, doloremque
+          error. Quam expedita obcaecati voluptatem suscipit numquam! Lorem
+          ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, cumque.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem,
+          cumque. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Dolorem, cumque.
+        </p>
+      </div>
+      <div
+        role="tabpanel"
+        id="panel-3"
+        tabindex="0"
+        aria-labelledby="tab-3"
+        class="tab-content"
+      >
+        <h3>Food 🍔</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+          perspiciatis dolor sint voluptas harum explicabo. Rem at error nam
+          omnis! Dignissimos quo, voluptatibus perferendis placeat ex quas.
+          Rerum tempora autem, voluptatum et odio reprehenderit totam quibusdam
+          iure exercitationem praesentium, laudantium expedita cum, doloremque
+          error. Quam expedita obcaecati voluptatem suscipit numquam! Lorem
+          ipsum, dolor sit amet consectetur adipisicing elit. Ipsa inventore
+          doloremque autem neque officia nesciunt ut tempora quaerat
+          perspiciatis facere odio voluptates porro exercitationem, corrupti
+          delectus molestias minus repellat. Ex.
+        </p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
